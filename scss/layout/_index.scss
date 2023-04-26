@@ -1,0 +1,121 @@
+.text-centrado {
+    margin: -19px auto;
+    text-align: center;
+}
+
+.section-main {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding: 10px;
+
+        a {
+        text-decoration: none;
+        text-align: center;
+        padding: 15px;
+        margin: 0 auto;
+        width: 100px;
+        border-radius: 100px;
+        background-color: #757596;
+        color: #ffffff;
+
+            &:hover {
+            background-color: $links-color;
+            color: #00ffff;
+            }
+
+        }
+
+
+        img {
+        margin: 0 auto;
+        object-fit: cover;
+        width: 100%;
+        max-width: 400px;
+        }
+
+}
+
+
+
+.section-content {
+    display: flex;
+    padding: 60px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    background-color: $third-color;
+}
+
+
+.section-content-items {
+    width: 30%;
+    font-size: 18px;
+    text-align: center;
+
+        img {
+        margin: 0 auto;
+        object-fit: cover;
+        width: 100%;
+        max-width: 200px;
+        }
+}
+
+.container {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.contenido {
+    width: 30%;
+    border: 2px solid $third-color;
+    font-size: 22px;
+    text-align: center;
+    
+        img {
+        object-fit: cover;
+        width: 100%;
+        }
+
+        a {
+        display: block;
+        text-decoration: none;
+        color: $secondary-color;
+        background-color:$third-color;
+        font-size: 18px;
+        padding: 10px;
+
+            &:hover {
+            background-color: $links-color;
+            color: #00ffff;
+            }
+        }
+
+        &:hover {
+        box-shadow: $efect-shadow;
+        }
+}
+
+
+.testimonial {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50%;
+}
+
+.testimonial-content {
+    width: 30%;
+    border: 2px solid $third-color;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}

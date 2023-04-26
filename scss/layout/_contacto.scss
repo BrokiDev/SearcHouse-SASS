@@ -1,0 +1,64 @@
+.form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.animacion {
+    animation:composicion-cajas 3s;
+}
+
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: $third-color;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle; 
+}
+
+.submit-form[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: #ffffff;
+    min-width: 300px;
+}
+
+.submit-form[type="submit"]:hover {
+    background-color: $links-color;
+    color: #00ffff;
+}
+
+ 
+@keyframes composicion-cajas { 
+    0%{
+    transform:scale(.5);transform-origin:top left
+    }
+    100%{
+        transform:scale(1);
+        transform-origin:top left
+    }
+}

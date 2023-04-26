@@ -1,0 +1,132 @@
+@media screen and ( max-width:991px) {
+    .right {
+        justify-content: flex-start;
+    }
+
+    .navbar {
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+        filter: opacity(0.8);
+    }
+
+    .section-main {
+        position: relative;
+        top: 105px;
+        margin-bottom: 121px;
+
+    }
+    .push {
+        position: relative;
+        top: 105px;
+        margin-bottom: 121px;
+    }
+
+    .container-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 768px){
+    .footer{
+        flex-direction: column;
+        
+    }
+
+    .logo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .logo img {
+        max-width: 120px;
+    }
+
+
+    .nav-bar ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 8px;
+        padding: 10px;
+    }
+
+    .nav-bar ul li {
+        width: 100%;
+    }
+
+    .nav-bar a  {
+        margin: 5px;
+        padding: 0px;
+        font-size: 18px;
+    }
+    .right {
+        justify-content: flex-start;
+    }
+
+    .navbar {
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+        filter: opacity(0.8);
+    }
+
+    .section-main {
+        position: relative;
+        top: 105px;
+        margin-bottom: 121px;
+
+    }
+    .push {
+        position: relative;
+        top: 105px;
+        margin-bottom: 121px;
+    }
+
+    .section-content {
+        flex-direction: row;
+        gap: 8px;
+        text-align: center;
+    }
+    .section-content-items {
+        font-size: 18px;
+        width: 100%;
+        max-width: 768px;
+    }
+    .container {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .contenido {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .testimonial {
+        flex-direction: column;
+        height: 100%;
+        max-width: 768px;
+        gap: 16px;
+    }
+
+    .testimonial-content {
+        width: 60%;
+        line-height: 1.5;
+        flex-wrap: wrap;
+        font-size: 18px;
+        flex-direction: column;
+    }
+}
