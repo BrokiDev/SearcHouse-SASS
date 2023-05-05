@@ -111,6 +111,10 @@ body {
   text-align: center;
 }
 
+.text-centrado span:hover {
+  color: #948c34 ;
+}
+
 .section-main {
   display: flex;
   flex-direction: column;
@@ -174,6 +178,8 @@ body {
   border: 2px solid #bac0c7;
   font-size: 22px;
   text-align: center;
+  padding: 8px;
+  margin: 5px 0px;
 }
 .contenido img {
   object-fit: cover;
@@ -353,6 +359,9 @@ input, textarea {
   }
   .footer {
     display: none;
+  }
+  .animacion {
+    animation: none;
   }
 }
 @media screen and (max-width: 768px) {
